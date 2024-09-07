@@ -1,0 +1,7 @@
+#age counter
+try:
+    age = int(input("Enter the number: "))
+    print("The age enterd is ",age)
+    
+except ValueError as ex:
+    print("Exception is ",ex)
